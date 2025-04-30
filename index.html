@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Men Vs 1 Gorilla | $MvG</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#FF3A2F',secondary:'#4A25E1'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full bg-white border-b-4 border-black z-50 py-3">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#" class="text-4xl font-['Bangers'] text-primary tracking-wider flex items-center">
+                <span class="text-primary">100 MEN</span>
+                <span class="text-yellow-500 mx-2">VS</span>
+                <span class="text-secondary">1 GORILLA</span>
+            </a>
+            
+            <div class="hidden md:flex space-x-1">
+                <a href="#about" class="comic-border px-4 py-2 bg-yellow-400 text-black font-bold hover:bg-yellow-300 transition-all duration-300 shake !rounded-button whitespace-nowrap">ABOUT</a>
+                <a href="#tokenomics" class="comic-border px-4 py-2 bg-green-400 text-black font-bold hover:bg-green-300 transition-all duration-300 shake !rounded-button whitespace-nowrap">TOKENOMICS</a>
+                <a href="#how-to-buy" class="comic-border px-4 py-2 bg-blue-400 text-black font-bold hover:bg-blue-300 transition-all duration-300 shake !rounded-button whitespace-nowrap">HOW TO BUY</a>
+                <a href="#community" class="comic-border px-4 py-2 bg-purple-400 text-black font-bold hover:bg-purple-300 transition-all duration-300 shake !rounded-button whitespace-nowrap">COMMUNITY</a>
+            </div>
+            
+            <button class="md:hidden w-10 h-10 flex items-center justify-center" id="mobile-menu-button">
+                <i class="ri-menu-line ri-2x"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden bg-white w-full border-t-2 border-black">
+            <div class="container mx-auto px-4 py-2 flex flex-col space-y-2">
+                <a href="#about" class="comic-border px-4 py-2 bg-yellow-400 text-black font-bold text-center hover:bg-yellow-300 transition-all duration-300 !rounded-button whitespace-nowrap">ABOUT</a>
+                <a href="#tokenomics" class="comic-border px-4 py-2 bg-green-400 text-black font-bold text-center hover:bg-green-300 transition-all duration-300 !rounded-button whitespace-nowrap">TOKENOMICS</a>
+                <a href="#how-to-buy" class="comic-border px-4 py-2 bg-blue-400 text-black font-bold text-center hover:bg-blue-300 transition-all duration-300 !rounded-button whitespace-nowrap">HOW TO BUY</a>
+                <a href="#community" class="comic-border px-4 py-2 bg-purple-400 text-black font-bold text-center hover:bg-purple-300 transition-all duration-300 !rounded-button whitespace-nowrap">COMMUNITY</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-20 w-full min-h-screen relative overflow-hidden" style="background-image: url('img/bg.png'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70"></div>
+        
+        <div class="container mx-auto px-4 py-20 relative z-10">
+            <div class="max-w-3xl mx-auto text-center mb-8">
+                <div class="speech-bubble bg-white inline-block mb-6 px-6 py-3 transform -rotate-2">
+                    <h2 class="text-2xl md:text-3xl font-bold text-primary">SOLANA'S WILDEST MEME TOKEN</h2>
+                </div>
+                
+                <h1 class="text-6xl md:text-8xl font-['Bangers'] mb-6 text-white drop-shadow-[0_5px_0_rgba(0,0,0,1)]">
+                    <span class="text-primary float">100 MEN</span>
+                    <span class="text-yellow-400 mx-2 pulse">VS</span>
+                    <span class="text-secondary float">1 GORILLA</span>
+                </h1>
+                
+                <p class="text-xl md:text-2xl text-white mb-8 font-bold drop-shadow-[0_2px_0_rgba(0,0,0,1)]">THE EPIC BATTLE FOR CRYPTO DOMINANCE IS HERE!<br> 
+                JOIN THE EPIC SHOWDOWN BETWEEN STRENGTH AND STRATEGY IN THE WORLD OF CRYPTO!</p>
+                </p>
+                
+                <div class="flex flex-col md:flex-row justify-center items-center gap-4">
+                    <a href="https://jup.ag/swap/SOL-qRUZaCpgxaRH1s5V6opjPA6Hnpv5BM37LqkDBw7pump" class="glowing-button bg-primary text-white font-bold text-xl py-4 px-8 rounded-xl border-4 border-black transform hover:scale-105 transition-all duration-300 !rounded-button whitespace-nowrap">
+                        BUY $MVG NOW!
+                    </a>
+                </div>
+            </div>
+            
+            <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-center">
+                <div class="animate-bounce mt-4">
+                    <i class="ri-arrow-down-line ri-2x text-white"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-black to-transparent opacity-10"></div>
+        
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-['Bangers'] mb-4 text-primary inline-block comic-border px-8 py-2 bg-yellow-100">THE LEGEND BEGINS</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="comic-panel bg-yellow-100 p-6 relative">
+                    <div class="absolute -top-5 -left-5 bg-primary text-white font-['Bangers'] text-2xl px-4 py-1 transform -rotate-6 border-2 border-black">THE STORY</div>
+                    <div class="h-full flex flex-col justify-center">
+                        <div class="speech-bubble bg-white mb-6">
+                            <p class="font-bold text-lg">In a world where crypto meets chaos...</p>
+                        </div>
+                        
+                        <p class="text-lg mb-4"> 100 Men vs 1 Gorilla emerges as the ultimate showdown between raw strength and strategic thinking. 
+                            These brave men banded together to create a token that would give power back to the people!</p>
+                        
+                        <p class="text-lg mb-4">Born out of a viral meme debate on the internet about if 100 men could take on a gorilla, our token transforms this age-old question into
+                            a revolutionary crypto experience with explosive growth potential.</p>
+                        
+                            <p class="font-bold text-lg">Join the resistance! The World need YOU to defeat the Gorilla!</p>
+                    </div>
+                </div>
+            
+                <div class="comic-panel bg-blue-100 p-6 relative" style="background-image: url('img/mvg.jpeg'); background-size: cover; background-position: center;">
+                    <div class="absolute -top-5 -right-5 bg-secondary text-white font-['Bangers'] text-2xl px-4 py-1 transform rotate-6 border-2 border-black">THE VISION</div>
+                    <div class="bottom-6 left-6 right-6">
+                        <div class="speech-bubble bg-white">
+                            <h3 class="text-2xl font-['Bangers'] mb-2 text-primary">WHY $MvG?</h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li class="font-bold">Community-driven meme power</li>
+                                <li class="font-bold">Built on Solana's lightning-fast network</li>
+                                <li class="font-bold">Zero utility, 100% fun and chaos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16 text-center">
+                <div class="inline-block comic-border bg-gradient-to-r from-yellow-400 via-red-500 to-purple-500 p-6 transform rotate-1">
+                <h3 class="text-3xl font-['Bangers'] text-white mb-4 drop-shadow-[0_2px_0_rgba(0,0,0,1)]">JOIN BATTLE TODAY!</h3>
+                <p class="text-xl text-white font-bold mb-6 drop-shadow-[0_1px_0_rgba(0,0,0,1)]">The gorilla thinks you don't have what it takes... Prove him wrong!</p>
+                <a href="https://www.100menvs1gorilla.com" class="glowing-button bg-white text-primary font-bold text-xl py-3 px-8 rounded-xl border-4 border-black transform hover:scale-105 transition-all duration-300 inline-block !rounded-button whitespace-nowrap">Play Gorilla Dodge Game</a>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="py-20 bg-gradient-to-b from-white to-yellow-50 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg fill=\"%23000000\" fill-opacity=\"0.05\"%3E%3Cpath d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-30"></div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-['Bangers'] mb-4 text-secondary inline-block comic-border px-8 py-2 bg-blue-100">TOKENOMICS</h2>
+                <p class="text-xl max-w-2xl mx-auto">Our token distribution is designed for maximum fairness and community ownership. No team allocation, no VCs, just pure meme power!</p>
+            </div>
+            
+            <div class="flex justify-center">
+                <div class="comic-panel bg-white p-6 w-full max-w-2xl">
+                    <h3 class="text-3xl font-['Bangers'] mb-6 text-primary text-center">TOKEN DETAILS</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center border-b-2 border-dashed border-gray-300 pb-4">
+                            <div class="w-12 h-12 flex items-center justify-center bg-yellow-400 rounded-full border-2 border-black mr-4">
+                                <i class="ri-coin-line ri-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold">Token Name</h4>
+                                <p>100 Men Vs 1 Gorilla ($MVG)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center border-b-2 border-dashed border-gray-300 pb-4">
+                            <div class="w-12 h-12 flex items-center justify-center bg-green-400 rounded-full border-2 border-black mr-4">
+                                <i class="ri-stack-line ri-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold">Current Supply</h4>
+                                <p>999,900,000 $MVG</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center border-b-2 border-dashed border-gray-300 pb-4">
+                            <div class="w-12 h-12 flex items-center justify-center bg-blue-400 rounded-full border-2 border-black mr-4">
+                                <i class="ri-fire-line ri-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold">Initial Burn</h4>
+                                <p>5% of total supply</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 flex items-center justify-center bg-purple-400 rounded-full border-2 border-black mr-4">
+                                <i class="ri-lock-line ri-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold">Liquidity Lock</h4>
+                                <p>Locked for 1 year with automatic extensions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="comic-panel bg-yellow-100 p-6 text-center">
+                    <div class="w-16 h-16 flex items-center justify-center bg-yellow-400 rounded-full border-3 border-black mx-auto mb-4">
+                        <i class="ri-rocket-line ri-2x"></i>
+                    </div>
+                    <h4 class="text-2xl font-['Bangers'] mb-2">FAIR LAUNCH</h4>
+                    <p>No presale, no private allocation. Everyone gets the same opportunity to join the battle.</p>
+                </div>
+                
+                <div class="comic-panel bg-blue-100 p-6 text-center">
+                    <div class="w-16 h-16 flex items-center justify-center bg-blue-400 rounded-full border-3 border-black mx-auto mb-4">
+                        <i class="ri-shield-check-line ri-2x"></i>
+                    </div>
+                    <h4 class="text-2xl font-['Bangers'] mb-2">LOCKED LIQUIDITY</h4>
+                    <p>Liquidity locked for 1 year with automatic extensions to ensure project longevity.</p>
+                </div>
+                
+                <div class="comic-panel bg-green-100 p-6 text-center">
+                    <div class="w-16 h-16 flex items-center justify-center bg-green-400 rounded-full border-3 border-black mx-auto mb-4">
+                        <i class="ri-group-line ri-2x"></i>
+                    </div>
+                    <h4 class="text-2xl font-['Bangers'] mb-2">COMMUNITY OWNED</h4>
+                    <p>No team allocation. This token belongs to the community from day one!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Buy Section -->
+    <section id="how-to-buy" class="py-20 bg-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\"44\" height=\"12\" viewBox=\"0 0 44 12\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cpath d=\"M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z\" fill=\"%23000000\" fill-opacity=\"0.05\" fill-rule=\"evenodd\"/%3E%3C/svg%3E')] opacity-30"></div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-['Bangers'] mb-4 text-primary inline-block comic-border px-8 py-2 bg-red-100">HOW TO BUY</h2>
+                <p class="text-xl max-w-2xl mx-auto">Follow these simple steps to get your $MVG tokens and become part of the resistance!</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="step-box comic-panel bg-yellow-100 p-6 relative">
+                    <div class="step-number">1</div>
+                    <div class="h-48" style="background-image: url('img/htb1.jpeg'); background-size: cover; background-position: center;"></div>
+                    <h3 class="text-2xl font-['Bangers'] mt-4 mb-2 text-center">CREATE A WALLET</h3>
+                    <p class="text-center">Download Phantom or Solflare wallet and set it up for Solana blockchain.</p>
+                </div>
+                
+                <div class="step-box comic-panel bg-blue-100 p-6 relative">
+                    <div class="step-number">2</div>
+                    <div class="h-48" style="background-image: url('img/htb2.jpeg'); background-size: cover; background-position: center;"></div>
+                    <h3 class="text-2xl font-['Bangers'] mt-4 mb-2 text-center">BUY SOLANA</h3>
+                    <p class="text-center">Purchase SOL from an exchange like Binance or Coinbase</p>
+                </div>
+                
+                <div class="step-box comic-panel bg-green-100 p-6 relative">
+                    <div class="step-number">3</div>
+                    <div class="h-48" style="background-image: url('img/htb3.jpeg'); background-size: cover; background-position: center;"></div>
+                    <h3 class="text-2xl font-['Bangers'] mt-4 mb-2 text-center">TRANSFER TO WALLET</h3>
+                    <p class="text-center">Send your SOL to your Phantom or Solflare wallet address.</p>
+                </div>
+                
+                <div class="step-box comic-panel bg-purple-100 p-6 relative">
+                    <div class="step-number">4</div>
+                    <div class="h-48" style="background-image: url('img/htb4.jpeg'); background-size: cover; background-position: center;"></div>
+                    <h3 class="text-2xl font-['Bangers'] mt-4 mb-2 text-center">SWAP FOR $MVG</h3>
+                    <p class="text-center">Connect to Jupiter and swap SOL for $MVG tokens.</p>
+                </div>
+            </div>
+            
+            <div class="mt-16 comic-panel bg-red-100 p-8">
+                <h3 class="text-3xl font-['Bangers'] mb-6 text-center text-primary">CONTRACT ADDRESS</h3>
+                
+                <div class="bg-white border-3 border-black rounded-lg p-4 flex items-center justify-between">
+                    <code class="text-sm md:text-base overflow-x-auto whitespace-nowrap pr-4">qRUZaCpgxaRH1s5V6opjPA6Hnpv5BM37LqkDBw7pump</code>
+                    <button class="ml-2 bg-primary text-white px-4 py-2 rounded-lg border-2 border-black hover:bg-red-600 transition-all duration-300 !rounded-button whitespace-nowrap" onclick="copyToClipboard('SOL123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789')">
+                        <i class="ri-file-copy-line mr-1"></i> Copy
+                    </button>
+                </div>
+                
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                    
+                    <a href="https://jup.ag/swap/SOL-qRUZaCpgxaRH1s5V6opjPA6Hnpv5BM37LqkDBw7pump" class="comic-border bg-white p-4 flex items-center justify-center hover:bg-gray-50 transition-all duration-300">
+                        <img src="img/jup_logo.png" alt="Jupiter" class="h-8 mr-3">
+                        <span class="font-bold text-lg">Buy on Jupiter</span>
+                    </a>
+                    
+                    <a href="https://dexscreener.com/solana/any6m193bzqppkpggks8nn4nf9cq7yjhroypdxws9g5k" class="comic-border bg-white p-4 flex items-center justify-center hover:bg-gray-50 transition-all duration-300">
+                        <i class="ri-line-chart-line ri-lg mr-3"></i>
+                        <span class="font-bold text-lg">View Chart</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="py-20 bg-gradient-to-b from-white to-purple-50 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"%239C92AC\" fill-opacity=\"0.1\" fill-rule=\"evenodd\"%3E%3Ccircle cx=\"3\" cy=\"3\" r=\"3\"/%3E%3Ccircle cx=\"13\" cy=\"13\" r=\"3\"/%3E%3C/g%3E%3C/svg%3E')] opacity-50"></div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-['Bangers'] mb-4 text-secondary inline-block comic-border px-8 py-2 bg-purple-100">JOIN THE COMMUNITY</h2>
+                <p class="text-xl max-w-2xl mx-auto">Become part of the Men Vs Gorilla army! Connect with fellow fighters and stay updated on the latest news.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <a href="https://x.com/mvgdotsol?s=21" class="comic-panel bg-blue-100 p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-20 h-20 flex items-center justify-center bg-blue-500 rounded-full border-3 border-black mx-auto mb-6">
+                        <i class="ri-twitter-fill ri-2x text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-['Bangers'] mb-2">TWITTER</h3>
+                    <p class="mb-4">Join the community for the latest updates, memes and community events.</p>
+                    <span class="inline-block bg-blue-500 text-white font-bold py-2 px-6 rounded-full border-2 border-black !rounded-button whitespace-nowrap">100 Men Vs 1 Gorilla</span>
+                </a>
+                
+                <a href="https://t.me/MVGARMYSOL" class="comic-panel bg-blue-200 p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-20 h-20 flex items-center justify-center bg-blue-700 rounded-full border-3 border-black mx-auto mb-6">
+                        <i class="ri-telegram-fill ri-2x text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-['Bangers'] mb-2">TELEGRAM</h3>
+                    <p class="mb-4">Join our Telegram group to chat with the community and team.</p>
+                    <span class="inline-block bg-blue-700 text-white font-bold py-2 px-6 rounded-full border-2 border-black !rounded-button whitespace-nowrap">t.me/MenVsGorilla</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12 relative overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                <div>
+                    <h3 class="text-3xl font-['Bangers'] mb-4 text-primary">100 MEN VS 1 GORILLA</h3>
+                    <p class="mb-4">The epic battle for crypto dominance continues! Join the resistance today.</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="hover:text-primary transition-all duration-300">About</a></li>
+                        <li><a href="#tokenomics" class="hover:text-primary transition-all duration-300">Tokenomics</a></li>
+                        <li><a href="#how-to-buy" class="hover:text-primary transition-all duration-300">How to Buy</a></li>
+                        <li><a href="#community" class="hover:text-primary transition-all duration-300">Community</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-6 text-center">
+                <p class="text-gray-400">© 2025 Men Vs Gorilla. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
