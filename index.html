@@ -45,7 +45,39 @@
             </div>
         </div>
     </nav>
-
+    
+    <!-- Token Info Banner -->
+    <div class="bg-black/90 text-white py-3 mt-[72px]">
+        <div class="container mx-auto px-4">
+        <div class="flex flex-wrap items-center justify-center gap-6 text-sm">
+            <div class="flex items-center gap-2">
+            <i class="ri-coin-line text-yellow-400"></i>
+            <span class="text-gray-400">Price:</span>
+            <span class="font-bold text-green-400" id="token-price">$0.00</span>
+            </div>
+            <div class="flex items-center gap-2">
+            <i class="ri-line-chart-line text-blue-400"></i>
+            <span class="text-gray-400">Market Cap:</span>
+            <span class="font-bold" id="market-cap">$0.00</span>
+            </div>
+            <div class="flex items-center gap-2">
+            <i class="ri-exchange-funds-line text-purple-400"></i>
+            <span class="text-gray-400">24h Volume:</span>
+            <span class="font-bold" id="volume">$0.00</span>
+            </div>
+            <div class="flex items-center gap-2">
+            <i class="ri-water-flash-line text-red-400"></i>
+            <span class="text-gray-400">Liquidity:</span>
+            <span class="font-bold" id="liquidity">$0.00</span>
+            </div>
+            <div class="flex items-center gap-2">
+            <i class="ri-timer-line text-green-400"></i>
+            <span class="text-gray-400">24h Change:</span>
+            <span class="font-bold" id="price-change">0.00%</span>
+            </div>
+        </div>
+        </div>
+    </div>
     <!-- Hero Section -->
     <section class="pt-20 w-full min-h-screen relative overflow-hidden" style="background-image: url('img/bg.png'); background-size: cover; background-position: center;">
         <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70"></div>
@@ -263,7 +295,7 @@
                 
                 <div class="bg-white border-3 border-black rounded-lg p-4 flex items-center justify-between">
                     <code class="text-sm md:text-base overflow-x-auto whitespace-nowrap pr-4">qRUZaCpgxaRH1s5V6opjPA6Hnpv5BM37LqkDBw7pump</code>
-                    <button class="ml-2 bg-primary text-white px-4 py-2 rounded-lg border-2 border-black hover:bg-red-600 transition-all duration-300 !rounded-button whitespace-nowrap" onclick="copyToClipboard('SOL123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789')">
+                    <button class="ml-2 bg-primary text-white px-4 py-2 rounded-lg border-2 border-black hover:bg-red-600 transition-all duration-300 !rounded-button whitespace-nowrap" onclick="copyToClipboard('qRUZaCpgxaRH1s5V6opjPA6Hnpv5BM37LqkDBw7pump')">
                         <i class="ri-file-copy-line mr-1"></i> Copy
                     </button>
                 </div>
